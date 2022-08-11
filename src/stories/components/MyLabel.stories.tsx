@@ -18,7 +18,7 @@ const Template: ComponentStory<typeof MyLabel> = (args) => (
 
 export const Basic = Template.bind({});
 Basic.args = {
-  label: 'MyLabel',
+  label: 'Button Label',
   size: 'normal',
   allCaps: false,
   color: 'primary',
