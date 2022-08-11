@@ -36,7 +36,7 @@
     "start": "start-storybook -p 6006",
     "build": "npm run clean && tsc && npm run copy-files",
     "chromatic": "npx chromatic --project-token=b85a606761c8",
-    "clean": "node_modules/rimraf/bin.js dist/",
+    "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/**/*.css dist/"
   },
   "eslintConfig": {
