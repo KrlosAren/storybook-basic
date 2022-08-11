@@ -74,7 +74,7 @@
     "semantic-release": "^19.0.3"
   },
   "peerDependencies": {
-    "typescript": "^4.7.4"
+    "react":"^16.0.0"
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
