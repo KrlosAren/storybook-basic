@@ -27,7 +27,7 @@ exports.default = {
 var Template = function (args) { return ((0, jsx_runtime_1.jsx)(MyLabel_1.MyLabel, __assign({}, args))); };
 exports.Basic = Template.bind({});
 exports.Basic.args = {
-    label: 'MyLabel',
+    label: 'Button Label',
     size: 'normal',
     allCaps: false,
     color: 'primary',
